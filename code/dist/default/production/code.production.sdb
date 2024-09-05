@@ -1,0 +1,509 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"4 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/BUTTON/ecu_button.c
+[e E3041 . `uc
+BUTTON_RELEASED 0
+BUTTON_PRESSED 1
+]
+[e E3045 . `uc
+BUTTON_ACTIVE_LOW 0
+BUTTON_ACTIVE_HIGH 1
+]
+"24
+[e E3002 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"30 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/Relay/ecu_relay.c
+[e E3002 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"99
+[e E2998 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"34 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\MCAL/GPIO/hal_gpio.c
+[e E2998 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"53
+[e E3002 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"119
+[e E2981 . `uc
+GPIO_PORTA 0
+GPIO_PORTB 1
+GPIO_PORTC 2
+GPIO_PORTD 3
+GPIO_PORTE 4
+]
+"14 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\project.c
+[e E3082 . `uc
+BUTTON_RELEASED 0
+BUTTON_PRESSED 1
+]
+"23
+[e E3086 . `uc
+BUTTON_ACTIVE_LOW 0
+BUTTON_ACTIVE_HIGH 1
+]
+"45 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/LCD/ecu_lcd.c
+[e E3002 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"5 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/ecu_initialize.c
+[e E2981 . `uc
+GPIO_PORTA 0
+GPIO_PORTB 1
+GPIO_PORTC 2
+GPIO_PORTD 3
+GPIO_PORTE 4
+]
+[e E2988 . `uc
+GPIO_PIN0 0
+GPIO_PIN1 1
+GPIO_PIN2 2
+GPIO_PIN3 3
+GPIO_PIN4 4
+GPIO_PIN5 5
+GPIO_PIN6 6
+GPIO_PIN7 7
+]
+[e E2998 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+[e E3002 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"57
+[e E3082 . `uc
+BUTTON_RELEASED 0
+BUTTON_PRESSED 1
+]
+[e E3086 . `uc
+BUTTON_ACTIVE_LOW 0
+BUTTON_ACTIVE_HIGH 1
+]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memset.c
+[v _memset memset `(*.2v  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"4 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/BUTTON/ecu_button.c
+[v _button_initialize button_initialize `(uc  1 e 1 0 ]
+"17
+[v _button_read_status button_read_status `(uc  1 e 1 0 ]
+"73 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/ecu_initialize.c
+[v _ecu_initialization ecu_initialization `(v  1 e 1 0 ]
+"7 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/LCD/ecu_lcd.c
+[v _lcd_8bit_initialize lcd_8bit_initialize `(uc  1 e 1 0 ]
+"38
+[v _lcd_8bit_send_command lcd_8bit_send_command `(uc  1 e 1 0 ]
+"55
+[v _lcd_8bit_send_char lcd_8bit_send_char `(uc  1 e 1 0 ]
+"72
+[v _lcd_8bit_send_char_pos lcd_8bit_send_char_pos `(uc  1 e 1 0 ]
+"86
+[v _lcd_8bit_send_string lcd_8bit_send_string `(uc  1 e 1 0 ]
+"101
+[v _lcd_8bit_send_string_pos lcd_8bit_send_string_pos `(uc  1 e 1 0 ]
+"175
+[v _lcd_8bit_enable_signal lcd_8bit_enable_signal `(uc  1 s 1 lcd_8bit_enable_signal ]
+"184
+[v _lcd_8bit_set_cursor lcd_8bit_set_cursor `(uc  1 s 1 lcd_8bit_set_cursor ]
+"5 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/Relay/ecu_relay.c
+[v _Relay_initialize Relay_initialize `(uc  1 e 1 0 ]
+"21
+[v _Relay_Turn_On Relay_Turn_On `(uc  1 e 1 0 ]
+"36
+[v _Relay_Turn_Off Relay_Turn_Off `(uc  1 e 1 0 ]
+"97
+[v _Relay_Config Relay_Config `(v  1 s 1 Relay_Config ]
+"16 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+"53
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"77
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+"103
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+"20 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\project.c
+[v _main main `(v  1 e 1 0 ]
+"63
+[v _initialization initialization `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"5 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/ecu_initialize.c
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v _lcd_8bit lcd_8bit `S297  1 e 10 0 ]
+"57
+[s S35 . 3 `S24 1 button_pin 1 0 `E3041 1 button_status 1 1 `E3045 1 button_active 1 2 ]
+[v _btn btn `S35  1 e 3 0 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"67
+[v _relay relay `S76  1 e 1 0 ]
+"11 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\MCAL/GPIO/hal_gpio.c
+[v _tris_registers tris_registers `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _port_registers port_registers `[5]*.39VEuc  1 e 10 0 ]
+"13
+[v _lat_registers lat_registers `[5]*.39VEuc  1 e 10 0 ]
+"14 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\project.c
+[v _btn_last_status btn_last_status `E3082  1 e 1 0 ]
+"15
+[v _btn_valid_status btn_valid_status `E3082  1 e 1 0 ]
+"17
+[v _flag flag `VEuc  1 e 1 0 ]
+"18
+[v _counter_debouncing counter_debouncing `uc  1 e 1 0 ]
+"20
+[v _main main `(v  1 e 1 0 ]
+{
+"61
+} 0
+"101 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/LCD/ecu_lcd.c
+[v _lcd_8bit_send_string_pos lcd_8bit_send_string_pos `(uc  1 e 1 0 ]
+{
+"103
+[v lcd_8bit_send_string_pos@ret ret `uc  1 a 1 23 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"101
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v lcd_8bit_send_string_pos@_lcd _lcd `*.30CS297  1 p 1 19 ]
+[v lcd_8bit_send_string_pos@str str `*.31uc  1 p 1 20 ]
+[v lcd_8bit_send_string_pos@row row `uc  1 p 1 21 ]
+[v lcd_8bit_send_string_pos@column column `uc  1 p 1 22 ]
+"112
+} 0
+"184
+[v _lcd_8bit_set_cursor lcd_8bit_set_cursor `(uc  1 s 1 lcd_8bit_set_cursor ]
+{
+"186
+[v lcd_8bit_set_cursor@ret ret `uc  1 a 1 18 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"184
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v lcd_8bit_set_cursor@_lcd _lcd `*.30CS297  1 p 1 15 ]
+[v lcd_8bit_set_cursor@row row `uc  1 p 1 16 ]
+[v lcd_8bit_set_cursor@column column `uc  1 p 1 17 ]
+"209
+} 0
+"86
+[v _lcd_8bit_send_string lcd_8bit_send_string `(uc  1 e 1 0 ]
+{
+"88
+[v lcd_8bit_send_string@ret ret `uc  1 a 1 17 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"86
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v lcd_8bit_send_string@_lcd _lcd `*.30CS297  1 p 1 15 ]
+[v lcd_8bit_send_string@str str `*.31uc  1 p 1 16 ]
+"98
+} 0
+"55
+[v _lcd_8bit_send_char lcd_8bit_send_char `(uc  1 e 1 0 ]
+{
+"63
+[v lcd_8bit_send_char@count count `uc  1 a 1 14 ]
+"57
+[v lcd_8bit_send_char@ret ret `uc  1 a 1 13 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"55
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v lcd_8bit_send_char@_lcd _lcd `*.30CS297  1 p 1 9 ]
+[v lcd_8bit_send_char@data data `uc  1 p 1 10 ]
+"69
+} 0
+"63 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\project.c
+[v _initialization initialization `(v  1 e 1 0 ]
+{
+"65
+} 0
+"73 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/ecu_initialize.c
+[v _ecu_initialization ecu_initialization `(v  1 e 1 0 ]
+{
+"78
+} 0
+"7 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/LCD/ecu_lcd.c
+[v _lcd_8bit_initialize lcd_8bit_initialize `(uc  1 e 1 0 ]
+{
+"16
+[v lcd_8bit_initialize@count count `uc  1 a 1 18 ]
+"9
+[v lcd_8bit_initialize@ret ret `uc  1 a 1 19 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"7
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v lcd_8bit_initialize@_lcd _lcd `*.30CS297  1 p 1 15 ]
+"35
+} 0
+"38
+[v _lcd_8bit_send_command lcd_8bit_send_command `(uc  1 e 1 0 ]
+{
+"46
+[v lcd_8bit_send_command@count count `uc  1 a 1 14 ]
+"40
+[v lcd_8bit_send_command@ret ret `uc  1 a 1 13 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"38
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v lcd_8bit_send_command@_lcd _lcd `*.30CS297  1 p 1 9 ]
+[v lcd_8bit_send_command@command command `uc  1 p 1 10 ]
+"52
+} 0
+"175
+[v _lcd_8bit_enable_signal lcd_8bit_enable_signal `(uc  1 s 1 lcd_8bit_enable_signal ]
+{
+"177
+[v lcd_8bit_enable_signal@ret ret `uc  1 a 1 8 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"175
+[s S297 . 10 `S24 1 rs 1 0 `S24 1 en 1 1 `[8]S24 1 data 8 2 ]
+[v lcd_8bit_enable_signal@_lcd _lcd `*.30CS297  1 p 1 7 ]
+"182
+} 0
+"4 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/BUTTON/ecu_button.c
+[v _button_initialize button_initialize `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[s S35 . 3 `S24 1 button_pin 1 0 `E3041 1 button_status 1 1 `E3045 1 button_active 1 2 ]
+[v button_initialize@btn btn `*.30CS35  1 p 1 6 ]
+"14
+} 0
+"5 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/Relay/ecu_relay.c
+[v _Relay_initialize Relay_initialize `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"12
+[v Relay_initialize@pin_config pin_config `S24  1 a 1 11 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"5
+[v Relay_initialize@_relay _relay `*.30S76  1 p 1 10 ]
+"19
+} 0
+"103 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+{
+"105
+[v gpio_pin_initialize@ret ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"103
+[v gpio_pin_initialize@_pin_config _pin_config `*.30CS24  1 p 1 7 ]
+"114
+} 0
+"16
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_direction_initialize@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+"37
+} 0
+"17 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/BUTTON/ecu_button.c
+[v _button_read_status button_read_status `(uc  1 e 1 0 ]
+{
+"24
+[v button_read_status@pin_login_status pin_login_status `E3002  1 a 1 9 ]
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"17
+[s S35 . 3 `S24 1 button_pin 1 0 `E3041 1 button_status 1 1 `E3045 1 button_active 1 2 ]
+[v button_read_status@btn btn `*.30CS35  1 p 1 6 ]
+[v button_read_status@btn_status btn_status `*.30E3041  1 p 1 7 ]
+"51
+} 0
+"77 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_read_logic@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+[v gpio_pin_read_logic@logic logic `*.30E3002  1 p 1 1 ]
+"87
+} 0
+"21 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/Relay/ecu_relay.c
+[v _Relay_Turn_On Relay_Turn_On `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"28
+[v Relay_Turn_On@pin_config pin_config `S24  1 a 1 8 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"21
+[v Relay_Turn_On@_relay _relay `*.30S76  1 p 1 7 ]
+"34
+} 0
+"36
+[v _Relay_Turn_Off Relay_Turn_Off `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"43
+[v Relay_Turn_Off@pin_config pin_config `S24  1 a 1 8 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+"36
+[v Relay_Turn_Off@_relay _relay `*.30S76  1 p 1 7 ]
+"49
+} 0
+"53 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_write_logic@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+[v gpio_pin_write_logic@logic logic `E3002  1 p 1 1 ]
+"74
+} 0
+"97 D:\Embedded\Microcontroller\Projects\Smart Door Lock System\code\ECU/Relay/ecu_relay.c
+[v _Relay_Config Relay_Config `(v  1 s 1 Relay_Config ]
+{
+[s S24 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v Relay_Config@pin_config pin_config `*.30S24  1 p 1 0 ]
+[s S76 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Status 1 0 :1:6 
+]
+[v Relay_Config@_relay _relay `*.30S76  1 p 1 1 ]
+"103
+} 0
